@@ -8525,16 +8525,6 @@
 		)
 		(uuid "0bb2cdd3-c101-4e4a-8c43-1b32beffc95a")
 	)
-	(label "GPIO4"
-		(at 125.73 123.19 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0be156f8-8d6c-4d18-9d6c-2250a63d852f")
-	)
 	(label "QSPI_SD0"
 		(at 162.56 82.55 270)
 		(effects
@@ -8545,16 +8535,6 @@
 		)
 		(uuid "0c1a89a0-8dbf-401c-84c7-f32b982a9c5b")
 	)
-	(label "GPIO5"
-		(at 125.73 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d8f38d2-12e0-4cb0-a3e3-4b3988f20fb8")
-	)
 	(label "GPIO28_ADC2"
 		(at 217.17 115.57 180)
 		(effects
@@ -8564,16 +8544,6 @@
 			(justify right bottom)
 		)
 		(uuid "1e277971-962a-4543-9cd0-0ef614690b70")
-	)
-	(label "GPIO14"
-		(at 160.02 172.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1eb02e37-d723-41f4-9875-56fb308312a5")
 	)
 	(label "QSPI_SD2"
 		(at 160.02 82.55 270)
@@ -8594,16 +8564,6 @@
 			(justify right bottom)
 		)
 		(uuid "213eb258-817d-439b-b390-8339b231ce82")
-	)
-	(label "GPIO10"
-		(at 125.73 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "227fb200-e1f4-434e-bc79-9149375aad94")
 	)
 	(label "QSPI_SS"
 		(at 154.94 82.55 270)
@@ -8664,16 +8624,6 @@
 			(justify left bottom)
 		)
 		(uuid "3a3ea586-9cc6-449d-883a-978a69059a18")
-	)
-	(label "GPIO2"
-		(at 125.73 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e30649f-f8a1-4d2b-8b6a-e7f78de7c6db")
 	)
 	(label "GPIO18"
 		(at 217.17 143.51 180)
@@ -8755,16 +8705,6 @@
 		)
 		(uuid "684ef024-0dc8-4e53-b64a-ef95017ff100")
 	)
-	(label "GPIO9"
-		(at 125.73 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7372597c-9e50-4673-936d-35d95edb99b8")
-	)
 	(label "QSPI_SS"
 		(at 68.58 92.71 0)
 		(effects
@@ -8805,36 +8745,6 @@
 		)
 		(uuid "86ab08b7-e5f1-4e57-9cbc-5025933bc269")
 	)
-	(label "GPIO13"
-		(at 157.48 172.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8ebbd72a-6146-46d1-8670-5a2e74aff0da")
-	)
-	(label "GPIO12"
-		(at 154.94 172.72 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "93fb9788-ae66-43bc-ae13-47cec265e028")
-	)
-	(label "GPIO11"
-		(at 125.73 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99e8c61f-9fee-4d8b-b361-07b441aa9d57")
-	)
 	(label "QSPI_SCLK"
 		(at 68.58 95.25 0)
 		(effects
@@ -8844,6 +8754,26 @@
 			(justify left bottom)
 		)
 		(uuid "a341ed9b-16e2-424b-80a8-bb5e511f69a5")
+	)
+	(label "GPIO2"
+		(at 125.73 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4a67bc8-2cee-4476-a357-8f50d3e5a603")
+	)
+	(label "GPIO3"
+		(at 125.73 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4a67bc8-2cee-4476-a357-8f50d3e5a604")
 	)
 	(label "QSPI_SD1"
 		(at 157.48 82.55 270)
@@ -8905,16 +8835,6 @@
 		)
 		(uuid "bea419b0-a169-4f8f-920c-b18657b24afa")
 	)
-	(label "GPIO8"
-		(at 125.73 135.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1dfb4a9-5441-4bcc-afa3-48c3a1c627b7")
-	)
 	(label "USB_D+"
 		(at 60.96 39.37 180)
 		(effects
@@ -8925,16 +8845,6 @@
 		)
 		(uuid "c25d43cc-7b60-45da-be97-65b2a67650ed")
 	)
-	(label "GPIO1"
-		(at 125.73 115.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8a9b64d-fd6b-45ac-869e-45cb7a9398f7")
-	)
 	(label "SWD"
 		(at 180.34 172.72 90)
 		(effects
@@ -8944,16 +8854,6 @@
 			(justify left bottom)
 		)
 		(uuid "c9b5d784-543b-4a70-91ed-18a8b57d9e13")
-	)
-	(label "GPIO0"
-		(at 125.73 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d21d8b36-65c3-4e63-86fa-9a6f00c884b8")
 	)
 	(label "GPIO21"
 		(at 217.17 135.89 180)
@@ -8974,16 +8874,6 @@
 			(justify left bottom)
 		)
 		(uuid "dccf46f0-c40b-4041-97c1-b3360fecb76a")
-	)
-	(label "GPIO3"
-		(at 125.73 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de46f662-1ba1-4334-a3b6-070a58541503")
 	)
 	(label "GPIO24"
 		(at 217.17 125.73 180)
@@ -9044,6 +8934,105 @@
 			(justify right bottom)
 		)
 		(uuid "f814cb02-c168-46cc-8834-f3c0924dd950")
+	)
+	(hierarchical_label "PROBE_SWDIO"
+		(shape bidirectional)
+		(at 160.02 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1eb02e37-d723-41f4-9875-56fb308312a5")
+	)
+	(hierarchical_label "SPI1_SCK"
+		(shape bidirectional)
+		(at 125.73 140.97 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "227fb200-e1f4-434e-bc79-9149375aad94")
+	)
+	(hierarchical_label "PROBE_SWDIO"
+		(shape bidirectional)
+		(at 157.48 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8ebbd72a-6146-46d1-8670-5a2e74aff0da")
+	)
+	(hierarchical_label "PROBE_SWCLK"
+		(shape bidirectional)
+		(at 154.94 172.72 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "93fb9788-ae66-43bc-ae13-47cec265e028")
+	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape bidirectional)
+		(at 125.73 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "99e8c61f-9fee-4d8b-b361-07b441aa9d57")
+	)
+	(hierarchical_label "UART1_TX"
+		(shape bidirectional)
+		(at 125.73 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4a67bc8-2cee-4476-a357-8f50d3e5a605")
+	)
+	(hierarchical_label "UART1_RX"
+		(shape bidirectional)
+		(at 125.73 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4a67bc8-2cee-4476-a357-8f50d3e5a606")
+	)
+	(hierarchical_label "SPI1_MISO"
+		(shape bidirectional)
+		(at 125.73 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a67bc8-2cee-4476-a357-8f50d3e5a607")
+	)
+	(hierarchical_label "SPI1_CS_N"
+		(shape bidirectional)
+		(at 125.73 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4a67bc8-2cee-4476-a357-8f50d3e5a608")
 	)
 	(symbol
 		(lib_id "RPI_DB:Integrated_Circuits | Microcontrollers/RP-01EKHS-ZTKTEH")

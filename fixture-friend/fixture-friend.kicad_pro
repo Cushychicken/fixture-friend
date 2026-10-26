@@ -1078,7 +1078,7 @@
         "uuid": "8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
       }
     ],
-    "used_designators": "#FLG1,#PWR19-21,#PWR24-25,#PWR42-48,C17,J3-7,PCB1,R20-21,R23-24,SBREV1,VARIANT1",
+    "used_designators": "#FLG1,#PWR19-21,#PWR24-25,#PWR42-48,C17,J1,J3-7,PCB1,R20-21,R23-24,SBREV1,VARIANT1",
     "variants": []
   },
   "sheets": [

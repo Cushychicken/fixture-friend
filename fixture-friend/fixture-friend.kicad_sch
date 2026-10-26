@@ -275,6 +275,351 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x06_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06_Pin"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_Pin_1_1"
+				(rectangle
+					(start 0.8636 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 0.8636 5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -7.62) (xy 0.8636 -7.62)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_ARM_JTAG_SWD_10"
 			(pin_names
 				(offset 1.016)
@@ -2259,6 +2604,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "SPI DEBUG (J9)\n"
+		(exclude_from_sim no)
+		(at 234.442 140.208 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "19af65ef-4ed3-4d85-9d19-29ba025e07db")
+	)
 	(text "SWD"
 		(exclude_from_sim no)
 		(at 228.6 51.816 0)
@@ -2300,6 +2659,20 @@
 			(justify left)
 		)
 		(uuid "79224d67-5c40-4482-a657-c1b1a5f15b93")
+	)
+	(text "UART DEBUG (J8)"
+		(exclude_from_sim no)
+		(at 234.442 110.998 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.508)
+				(bold yes)
+				(italic yes)
+			)
+			(justify left)
+		)
+		(uuid "eb41d44c-97fd-4878-85d7-064784ddde7b")
 	)
 	(junction
 		(at 123.19 147.32)
@@ -2371,6 +2744,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 142.24) (xy 189.23 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fda3ae1-86d9-46f2-8eb7-969dd534c0ae")
+	)
+	(wire
+		(pts
+			(xy 111.76 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2281a02a-b647-4162-89c2-17150d9a385f")
+	)
+	(wire
+		(pts
 			(xy 163.83 86.36) (xy 189.23 86.36)
 		)
 		(stroke
@@ -2388,6 +2781,16 @@
 			(type default)
 		)
 		(uuid "2ed71264-9713-4ca2-a627-44bdd8d8fb95")
+	)
+	(wire
+		(pts
+			(xy 165.1 144.78) (xy 189.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3567aa91-a14c-4c27-a935-605467add192")
 	)
 	(wire
 		(pts
@@ -2441,6 +2844,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 137.16) (xy 189.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44b5a724-0c95-4f71-ba3f-2370d12a2fb0")
+	)
+	(wire
+		(pts
 			(xy 90.17 160.02) (xy 153.67 160.02)
 		)
 		(stroke
@@ -2471,6 +2884,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 111.76) (xy 189.23 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51bd910f-dfeb-49be-90d6-869d7131d939")
+	)
+	(wire
+		(pts
 			(xy 86.36 142.24) (xy 107.95 142.24)
 		)
 		(stroke
@@ -2481,6 +2904,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 81.28) (xy 88.9 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb6694e-b6b5-4784-8964-52e8ba0edbaf")
+	)
+	(wire
+		(pts
 			(xy 123.19 149.86) (xy 114.3 149.86)
 		)
 		(stroke
@@ -2488,6 +2921,16 @@
 			(type default)
 		)
 		(uuid "69048962-8cc4-48ee-8b79-c89effb28d12")
+	)
+	(wire
+		(pts
+			(xy 114.3 66.04) (xy 88.9 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e73ff77-ca30-4713-bf28-a33565e605a5")
 	)
 	(wire
 		(pts
@@ -2528,6 +2971,36 @@
 			(type default)
 		)
 		(uuid "80f61b1a-dc6a-4b96-a666-35d7e3988cd5")
+	)
+	(wire
+		(pts
+			(xy 165.1 139.7) (xy 189.23 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dec2bab-0064-44d4-b544-5e6fc445e2f7")
+	)
+	(wire
+		(pts
+			(xy 114.3 68.58) (xy 88.9 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93f02647-65f4-4b55-a385-0679567aad94")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 88.9 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99b380f7-4109-4869-a241-1b46898ac36d")
 	)
 	(wire
 		(pts
@@ -2611,6 +3084,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 114.3) (xy 189.23 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d1936e-c1a0-4b88-8297-ee055db0fbe3")
+	)
+	(wire
+		(pts
 			(xy 71.12 184.15) (xy 71.12 182.88)
 		)
 		(stroke
@@ -2658,6 +3141,16 @@
 			(type default)
 		)
 		(uuid "f9f68eb5-b3b6-4205-8667-08e52f687429")
+	)
+	(wire
+		(pts
+			(xy 111.76 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb40edad-c80a-4e12-879e-e3d4bf90a7b2")
 	)
 	(wire
 		(pts
@@ -2750,6 +3243,254 @@
 			(justify left bottom)
 		)
 		(uuid "c5ce347c-b6d7-414b-9fc7-521cba2ea11a")
+	)
+	(label "UART1_TX"
+		(at 114.3 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db01")
+	)
+	(label "UART1_RX"
+		(at 114.3 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db02")
+	)
+	(label "SPI1_SCK"
+		(at 111.76 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db03")
+	)
+	(label "SPI1_MOSI"
+		(at 111.76 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db04")
+	)
+	(label "SPI1_MISO"
+		(at 111.76 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db05")
+	)
+	(label "SPI1_CS_N"
+		(at 111.76 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db06")
+	)
+	(label "PROBE_SWCLK"
+		(at 173.99 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db07")
+	)
+	(label "PROBE_SWDIO"
+		(at 173.99 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db08")
+	)
+	(label "PROBE_SWCLK"
+		(at 88.9 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db09")
+	)
+	(label "PROBE_SWDIO"
+		(at 88.9 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8db10")
+	)
+	(label "UART1_TX"
+		(at 170.18 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dc01")
+	)
+	(label "UART1_RX"
+		(at 170.18 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dc02")
+	)
+	(label "SPI1_SCK"
+		(at 165.1 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dc03")
+	)
+	(label "SPI1_MOSI"
+		(at 165.1 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dc04")
+	)
+	(label "SPI1_MISO"
+		(at 165.1 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dc05")
+	)
+	(label "SPI1_CS_N"
+		(at 165.1 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dc06")
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 189.23 106.68 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dd01")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 189.23 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dd02")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape bidirectional)
+		(at 189.23 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dd03")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 189.23 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7f90e0b-5f11-47a9-d68a-b18306a8dd04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "RPI_DB:Mechanical | Mounting_Holes/RP-01HF5R-LCTEJS")
@@ -3388,113 +4129,6 @@
 			(project "fixture-friend"
 				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
-		(at 186.69 49.53 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14e93501-d696-46bd-8076-f96b601bbd74")
-		(property "Reference" "J4"
-			(at 198.12 48.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ARM_JTAG_SWD_10"
-			(at 198.12 50.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
-			(at 195.58 81.28 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
-			(at 186.69 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "3"
-			(uuid "de93713a-1ad8-42bd-a25c-85a8f2218f9f")
-		)
-		(pin "6"
-			(uuid "c0f1e682-b6a1-4621-b1dc-b85eeb3b129a")
-		)
-		(pin "8"
-			(uuid "c1d6c139-7495-4d4a-9ac2-8a32855ea1e4")
-		)
-		(pin "5"
-			(uuid "ab895e86-31a6-499c-9e88-0db9a5a4d598")
-		)
-		(pin "2"
-			(uuid "1aeec79f-b46e-4826-8012-8a0b55b896d6")
-		)
-		(pin "10"
-			(uuid "d45141e3-eaaa-477a-9491-e95f57cf3b3d")
-		)
-		(pin "4"
-			(uuid "0a68ce96-4bd5-43f1-b856-4b13e30ea602")
-		)
-		(pin "1"
-			(uuid "81b77df9-1833-4663-9650-c660ce98e261")
-		)
-		(pin "9"
-			(uuid "4da69926-9d05-4b53-a9cf-8e63141164e6")
-		)
-		(pin "7"
-			(uuid "89a50a32-bd55-4eae-82a9-12ec18020143")
-		)
-		(instances
-			(project "fixture-friend"
-				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -4491,6 +5125,339 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_ARM_JTAG_SWD_10")
+		(at 186.69 49.53 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd12b64e-4720-4688-a5a0-eb65ee1c499d")
+		(property "Reference" "J1"
+			(at 198.12 48.2599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_ARM_JTAG_SWD_10"
+			(at 198.12 50.7999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
+			(at 186.69 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf"
+			(at 195.58 81.28 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Cortex Debug Connector, standard ARM Cortex-M SWD and JTAG interface"
+			(at 186.69 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "6f747c02-b0a5-4bf2-80db-a8e0d16787c3")
+		)
+		(pin "9"
+			(uuid "9b4db8b4-2f1c-4296-a726-ad316ceac439")
+		)
+		(pin "10"
+			(uuid "d282872c-c60f-438c-b2e7-5e856f5cfa9b")
+		)
+		(pin "2"
+			(uuid "50f3a283-8a3a-487a-b5af-5b73aad5ab53")
+		)
+		(pin "3"
+			(uuid "38570f70-463f-4cea-929e-12d74479883b")
+		)
+		(pin "4"
+			(uuid "5fbaf78a-fbd5-400e-8816-f807b1cd8a35")
+		)
+		(pin "1"
+			(uuid "e6f7876f-394e-4c9d-b2fe-0414303b5824")
+		)
+		(pin "5"
+			(uuid "fd4aeb4f-e0ce-429d-bf34-56eeff9ff160")
+		)
+		(pin "6"
+			(uuid "fe9789b4-fb11-4514-8b51-c204e95e8ce2")
+		)
+		(pin "7"
+			(uuid "88c45d01-0339-4191-bee3-f9018cf15f2a")
+		)
+		(instances
+			(project "fixture-friend"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 194.31 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c801")
+		(property "Reference" "J8"
+			(at 195.58 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "53261-0471"
+			(at 195.58 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_PicoBlade_53261-0471_1x04-1MP_P1.25mm_Horizontal"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/pdm_docs/sd/532610271_sd.pdf"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Molex PicoBlade 1.25 mm pitch, 4-pin right-angle SMT receptacle"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "53261-0471"
+			(at 194.31 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c811")
+		)
+		(pin "2"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c812")
+		)
+		(pin "3"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c813")
+		)
+		(pin "4"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c814")
+		)
+		(instances
+			(project "fixture-friend"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x06_Pin")
+		(at 194.31 137.16 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c901")
+		(property "Reference" "J9"
+			(at 195.58 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SM06B-SRSS-TB(LF)(SN)"
+			(at 195.58 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM06B-SRSS-TB_1x06-1MP_P1.00mm_Horizontal"
+			(at 194.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+			(at 194.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "JST SH 1.00 mm pitch, 6-pin right-angle SMT receptacle"
+			(at 194.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 194.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer PN" "SM06B-SRSS-TB(LF)(SN)"
+			(at 194.31 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c911")
+		)
+		(pin "2"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c912")
+		)
+		(pin "3"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c913")
+		)
+		(pin "4"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c914")
+		)
+		(pin "5"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c915")
+		)
+		(pin "6"
+			(uuid "c6e89dfa-4e00-4698-c579-a072f5f7c916")
+		)
+		(instances
+			(project "fixture-friend"
+				(path "/8c0b3d8b-46d3-4173-ab1e-a61765f77d61"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Pin")
 		(at 194.31 86.36 0)
 		(mirror y)
@@ -4939,6 +5906,86 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(pin "UART1_TX" bidirectional
+			(at 88.9 66.04 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b701")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART1_RX" bidirectional
+			(at 88.9 68.58 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b702")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_SCK" bidirectional
+			(at 88.9 76.2 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b703")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MOSI" bidirectional
+			(at 88.9 78.74 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b704")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_MISO" bidirectional
+			(at 88.9 81.28 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b705")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI1_CS_N" bidirectional
+			(at 88.9 83.82 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b706")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PROBE_SWCLK" bidirectional
+			(at 88.9 71.12 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b707")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PROBE_SWDIO" bidirectional
+			(at 88.9 73.66 0)
+			(uuid "b5d78ce9-3dff-4587-b468-9f61e4f6b708")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
