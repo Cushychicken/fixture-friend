@@ -6,7 +6,7 @@ Features:
 
 * 100mm x 100mm board outline
 * M3 mounting holes in each corner
-* Core RP2350 design as hierarchical sheet 
+* Core RP2040 design as hierarchical sheet 
 * Connections to target PCBA and target programming connectors implemented
 
 Design block is fanned out to a few common connector specs, for easy implementation as a reference design:
